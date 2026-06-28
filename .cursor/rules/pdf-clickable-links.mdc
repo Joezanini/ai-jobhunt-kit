@@ -1,0 +1,41 @@
+---
+description: Clickable hyperlinks in markdown sources converted to PDF
+globs: "**/{resumes,cover-letters}/**/*.md,**/convert_to_pdf.py,**/batch/contact.json"
+alwaysApply: false
+---
+
+# PDF Clickable Links
+
+When markdown is rendered to PDF (xhtml2pdf, pandoc, md-to-pdf), link syntax in source must produce **visible plain text** with working hyperlinks — never raw `[label](url)` in the PDF output.
+
+## Markdown source rules
+
+| Element | Source format | Why |
+|---------|---------------|-----|
+| Email | `jozanini@example.com` (plain) | Converter auto-wraps as `mailto:` |
+| Phone | `(555) 010-0200` (plain) | Converter auto-wraps as `tel:` |
+| Labeled link | `[LinkedIn](https://...)` | Label shows; URL is hidden |
+| Bare URL in body | `https://...` or `[label](url)` | Auto-link or explicit markdown |
+
+**Never** put `[email](mailto:email@domain.com)` in markdown source when a post-processing autolink step runs — it double-wraps and the PDF shows literal bracket syntax.
+
+## Converter requirements
+
+If adding or changing `autolink` / pre-PDF processing:
+
+1. **Protect** existing `[text](url)` markdown links before regex passes.
+2. Auto-link bare emails, phones, and URLs only where not already linked.
+3. CSS must style anchors: `a { color: #0563c1; text-decoration: underline; }`
+
+## Verification
+
+After PDF generation, confirm in output (not just markdown):
+
+- Email displays as `user@domain.com`, clickable
+- Phone displays as `(xxx) xxx-xxxx`, clickable
+- LinkedIn shows word "LinkedIn", not a raw URL
+- No visible `](mailto:` or `](tel:` artifacts
+
+## Reference
+
+Canonical implementation: `artifacts/**/batch/convert_to_pdf.py` and `batch/contact.json`.

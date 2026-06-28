@@ -1,0 +1,38 @@
+---
+description: Grammar and style for public-facing documents (resumes, cover letters, client PDFs)
+globs: "**/{resumes,cover-letters}/**/*.md,**/joe_zanini_resume.md"
+alwaysApply: false
+---
+
+# Public-Facing Document Grammar
+
+Apply when writing or editing documents meant for recruiters, clients, or external readers.
+
+## Before finalizing
+
+Proofread for: subject-verb agreement, its/it's, their/there/they're, consistent tense, Oxford commas, no double spaces, correct company/product names.
+
+## Resumes
+
+- **Summary**: Complete sentences; no em-dash fragments; max one em dash per paragraph.
+- **Tense**: Present for current role; past for prior roles.
+- **Bullets**: Parallel structure; each starts with a strong verb. No first-person ("I") in body bullets.
+- **Hyphenation**: Hyphenate compound modifiers (AI-assisted, hands-on, open-source).
+- **Dates**: En dash in ranges (`March 2022 – Present`).
+
+## Cover letters
+
+- Complete sentences; professional tone; 3–5 sentences per paragraph.
+- Do not copy resume bullets verbatim — rephrase in narrative form.
+- Open with role + company; close with one call-to-action sentence.
+- **Signature**: sign-off, blank line, then name (never on one line):
+
+```
+Sincerely,
+
+Alex Rivera
+```
+
+## Reference
+
+Project-specific checklist: `artifacts/**/batch/GRAMMAR_STYLE.md` when present.

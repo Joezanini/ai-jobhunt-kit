@@ -1,0 +1,50 @@
+{
+  "batch_version": "1.0.0",
+  "source_file": "examples/sample_job_opportunities.md",
+  "drive_folder_name": "Alex Rivera - Job Applications 2026",
+  "drive_folder_id": null,
+  "roles": [
+    {
+      "role_id": "novaai-devrel",
+      "company": "NovaAI",
+      "company_slug": "NovaAI",
+      "title": "Developer Relations Engineer",
+      "role_slug": "DeveloperRelationsEngineer",
+      "location": "San Francisco, CA",
+      "work_model": "hybrid",
+      "salary_range": "Not posted",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/0000000001/",
+      "category": "devrel",
+      "warnings": [],
+      "keyword_targets": [
+        "developer relations",
+        "open source",
+        "Python",
+        "technical content",
+        "workshops"
+      ],
+      "status": "pending"
+    },
+    {
+      "role_id": "lattice-ai-enablement",
+      "company": "Lattice Tools",
+      "company_slug": "LatticeTools",
+      "title": "AI Enablement Lead",
+      "role_slug": "AIEnablementLead",
+      "location": "Remote (US)",
+      "work_model": "remote",
+      "salary_range": "$165,000 – $195,000",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/0000000002/",
+      "category": "ai_enablement",
+      "warnings": [],
+      "keyword_targets": [
+        "AI enablement",
+        "workshops",
+        "adoption",
+        "hands-on",
+        "coding assistants"
+      ],
+      "status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Alex Rivera",
+  "email": "alex.rivera@example.com",
+  "linkedin": "https://www.linkedin.com/in/example-alex-rivera/",
+  "phone": "(555) 010-0200",
+  "phone_tel": "+15550100200",
+  "location": "Oakland, CA",
+  "github": "https://github.com/example-alex-rivera",
+  "resume_contact_line": "alex.rivera@example.com · [LinkedIn](https://www.linkedin.com/in/example-alex-rivera/) · (555) 010-0200 · Oakland, CA",
+  "cover_letter_contact_line": "alex.rivera@example.com · (555) 010-0200 · [LinkedIn](https://www.linkedin.com/in/example-alex-rivera/)"
+}

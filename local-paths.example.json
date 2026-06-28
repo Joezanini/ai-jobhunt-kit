@@ -1,0 +1,13 @@
+{
+  "$schema": "local-paths-v1",
+  "base_resume": "examples/sample_resume.md",
+  "job_opportunities": "examples/sample_job_opportunities.md",
+  "current_role_reference": "examples/sample_role_reference.md",
+  "contact": "examples/sample_contact.json",
+  "artifacts_root": "artifacts/pilot/",
+  "candidate_name": {
+    "first": "Alex",
+    "last": "Rivera"
+  },
+  "drive_folder_name": "Alex Rivera - Job Applications 2026"
+}

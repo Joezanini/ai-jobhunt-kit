@@ -1,0 +1,9 @@
+.DS_Store
+local-paths.json
+artifacts/
+export/
+client_secret_*.json
+.env
+.env.*
+__pycache__/
+*.pyc
