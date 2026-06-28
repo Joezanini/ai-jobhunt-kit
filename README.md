@@ -4,7 +4,7 @@ Agent-driven toolkit for tailored resumes, cover letters, and batch PDF delivery
 
 to get started, install Spec-Kit, run through Spec-kit commands and let your AI coding tool cook. 
 
-with recommended MCP servers set up, I am able to apply for jobs from my ohoen while watching television with my wife.
+with recommended MCP servers set up, I am able to apply for jobs from my phone, while watching television with my wife.
 
 Looking forward to how simple this will make your Open Claw agentic setup work.
 
