@@ -27,7 +27,7 @@ Agent-driven toolkit for tailored resumes, cover letters, and batch PDF delivery
 | Spec Kit specs, contracts, and skills | Your personal resume or job list |
 | Fictional example data in `examples/` | Live job scraping service |
 | Batch PDF scripts and grammar rules | Pre-filled application PDFs for you |
-| [LinkedIn](https://github.com/stickerdaniel/linkedin-mcp-server) + [Drive]() MCP documentation | Required MCP (optional enhancements) |
+| [LinkedIn](https://github.com/stickerdaniel/linkedin-mcp-server) + [Drive](https://github.com/piotr-agier/google-drive-mcp) MCP documentation | Required MCP (optional enhancements) |
 
 ## Two starter files (required)
 
