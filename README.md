@@ -2,6 +2,13 @@
 
 Agent-driven toolkit for tailored resumes, cover letters, and batch PDF delivery using [Spec Kit](https://github.com/github/spec-kit) workflows. Built for developers using AI coding assistants (Cursor, Claude Code, Codex) who want honest, ATS-friendly application materials without a hosted SaaS.
 
+to get started, install Spec-Kit, run through Spec-kit commands and let your AI coding tool cook. 
+
+with recommended MCP servers set up, I am able to apply for jobs from my ohoen while watching television with my wife.
+
+Looking forward to how simple this will make your Open Claw agentic setup work.
+
+
 ## Table of contents
 
 - [What this includes](#what-this-includes)
